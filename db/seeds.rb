@@ -12,11 +12,11 @@ b2 = Book.create(title: "Unbroken", author: "Laura Hillenbrand", description: "A
 b3 = Book.create(title: "Wild", author: "Cheryl Strayed", description: "A womans account of the life-changing 1,100-mile solo hike she took along the Pacific Crest Trail in 1995.", publisher: "Vintage", weeks_on_list: 95, rank_this_week: 3)
 b4 = Book.create(title: "The Boys in the Boat", author: "Daniel James", description: "A group of American rowers pursued gold at the 1936 Berlin Olympic Games.", publisher: "Penguin", weeks_on_list: 34, rank_this_week: 4)
 b5 = Book.create(title: "Alan Turing: The Enigma", author: "Andrew Hodges", description: "The presiding mathetmatician and decoding force at Bletchley Park, the center that cracked the German Enigma code,", publisher: "Princeton University", weeks_on_list: 2, rank_this_week: 5)
-b6 = Book.create(title: "Outliers", author: "Malcolm Gladwell", description: "Why some people succeed â€” it has to do with luck and opportunities as well as talent.", publisher: "Back Bay/Little, Brown", weeks_on_list: 185, rank_this_week: 6)
+b6 = Book.create(title: "Outliers", author: "Malcolm Gladwell", description: "Why some people succeed it has to do with luck and opportunities as well as talent.", publisher: "Back Bay/Little, Brown", weeks_on_list: 185, rank_this_week: 6)
 b7 = Book.create(title: "The Power of Habit", author: "Charles Duhigg", description: "An examinatino of the science behind habits, how we form them and break them.", publisher: "Random House", weeks_on_list: 51, rank_this_week: 7)
 b8 = Book.create(title: "A Brief History of Time", author: "Stephen W. Hawking", description: "The British cosmologist reviews efforts to create a unified theory of the universe.", publisher: "Bantam", weeks_on_list: 8, rank_this_week: 8)
 b9 = Book.create(title: "10% Happier", author: "Dan Harris", description: "A co-anchor of \"Nightline\" reports on the science and spiritual basis of meditation and how it has improved his life.", publisher: "Dey St.", weeks_on_list: 3, rank_this_week: 9)
-b10 = Book.create(title: "The New Jim Crow", author: "Michelle Alexander", description: "A law professor takes aim at the â€œwar on drugsâ€ and its impact on black men.", publisher: "New Press", weeks_on_list: 88, rank_this_week: 10)
+b10 = Book.create(title: "The New Jim Crow", author: "Michelle Alexander", description: "A law professor takes aim at the â€œwar on drugs and its impact on black men.", publisher: "New Press", weeks_on_list: 88, rank_this_week: 10)
 
 Review.create(comment: "[My] favorite book of the year. Chris Kyles American Sniper is an amazingly detailed account of fighting in Iraq -- a humanizing, brave story thatâ€™s extremely readable.", author: "New York Times Book Review", book_id: b1.id)
 Review.create(comment: "In the community of elite warriors, one man has risen above our ranks and distinguished himself as unique. Chris Kyle is that man. A master sniper, Chris has done and seen things that will be talked about for generations to come.", author: "Marcus Luttrell", book_id: b1.id)
@@ -27,8 +27,8 @@ Review.create(comment: "A meticulous, soaring and beautifully written account of
 Review.create(comment: "Spectacular. . . . A literary and human triumph.", author: "The New York Times Book Review", book_id: b3.id)
 Review.create(comment: "I was on the edge of my seat. . . . It is just a wild ride of a read . . . stimulating, thought-provoking, soul-enhancing.", author: "Oprah Winfrey", book_id: b3.id)
 
-Review.create(comment: "If you imagined a great regatta of books about rowing, then Brownâ€™s BOYS IN THE BOAT certainly makes the final heatâ€¦.", author: "Boston Globe", book_id: b4.id)
-Review.create(comment: "Cogent historyâ€¦, and a surprisingly suspenseful tale of triumph.", author: "USA Today", book_id: b4.id)
+Review.create(comment: "If you imagined a great regatta of books about rowing, then Browns BOYS IN THE BOAT certainly makes the final heat.", author: "Boston Globe", book_id: b4.id)
+Review.create(comment: "Cogent history, and a surprisingly suspenseful tale of triumph.", author: "USA Today", book_id: b4.id)
 
 Review.create(comment: "One of the finest scientific biographies ever written.", author: "New Yorker", book_id: b5.id)
 Review.create(comment: "A first-class contribution to history and an exemplary work of biography.", author: "Nature", book_id: b5.id)
