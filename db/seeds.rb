@@ -18,7 +18,7 @@ b8 = Book.create(title: "A Brief History of Time", author: "Stephen W. Hawking",
 b9 = Book.create(title: "10% Happier", author: "Dan Harris", description: "A co-anchor of \"Nightline\" reports on the science and spiritual basis of meditation and how it has improved his life.", publisher: "Dey St.", weeks_on_list: 3, rank_this_week: 9)
 b10 = Book.create(title: "The New Jim Crow", author: "Michelle Alexander", description: "A law professor takes aim at the â€œwar on drugs and its impact on black men.", publisher: "New Press", weeks_on_list: 88, rank_this_week: 10)
 
-Review.create(comment: "[My] favorite book of the year. Chris Kyles American Sniper is an amazingly detailed account of fighting in Iraq -- a humanizing, brave story thatâ€™s extremely readable.", author: "New York Times Book Review", book_id: b1.id)
+Review.create(comment: "[My] favorite book of the year. Chris Kyles American Sniper is an amazingly detailed account of fighting in Iraq -- a humanizing, brave story thats extremely readable.", author: "New York Times Book Review", book_id: b1.id)
 Review.create(comment: "In the community of elite warriors, one man has risen above our ranks and distinguished himself as unique. Chris Kyle is that man. A master sniper, Chris has done and seen things that will be talked about for generations to come.", author: "Marcus Luttrell", book_id: b1.id)
 
 Review.create(comment: "Extraordinarily moving . . . a powerfully drawn survival epic.", author: "The Wall Street Journal", book_id: b2.id)
